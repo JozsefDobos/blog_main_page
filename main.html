@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog sample</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a class="btn btn-default btn-subscribe" href="#" alt="Subscribe">SUBSCRIBE</a>
-        <div class="container"> <p>TEXT LOGO</p></div>
+        <div class="container headerMain">
+          <a class="btn btn-subscribe" href="#" alt="Subscribe">SUBSCRIBE</a>
+          <p>LOGO TEXT</p>
+        </div>
+
         <nav>
             <div class="container nav-style">
                 <ul>
-                    <li><a href="#" alt="Business">BUSINESS</a></li>
-                    <li><a href="#" alt="Culture">CULTURE</a></li>
-                    <li><a href="#" alt="Design">DESIGN</a></li>
-                    <li><a href="#" alt="Health">HEALTH</a></li>
-                    <li><a href="#" alt="Politics">POLITICS</a></li>
-                    <li><a href="#" alt="Science">SCIENCE</a></li>
-                    <li><a href="#" alt="Travel">TRAVEL</a></li>
-                    <li><a href="#" alt="World">WORLD</a></li>
+                    <li><a class="nav-link" href="#" alt="Business">BUSINESS</a></li>
+                    <li><a class="nav-link" href="#" alt="Culture">CULTURE</a></li>
+                    <li><a class="nav-link" href="#" alt="Design">DESIGN</a></li>
+                    <li><a class="nav-link" href="#" alt="Health">HEALTH</a></li>
+                    <li><a class="nav-link" href="#" alt="Politics">POLITICS</a></li>
+                    <li><a class="nav-link" href="#" alt="Science">SCIENCE</a></li>
+                    <li><a class="nav-link" href="#" alt="Travel">TRAVEL</a></li>
+                    <li><a class="nav-link" href="#" alt="World">WORLD</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div class="container first-img">
+        <div class="firstBlogImg">
             <p><small>April 4, 2020 / by Amy / 0 Comments</small></p>
             <h2>Featured blog post</h2>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et.</p>
@@ -35,14 +41,14 @@
         
         <div class="row">
             <div class="col-sm-6">
-                <img class="img-responsive img-rounded" src="/wsc-practice-assets/blog/samson-ZGjbiukp_-A-unsplash.jpg" alt="Business buildings">
+                <img class="img-responsive img-rounded imgSmall" src="/wsc-practice-assets/blog/samson-ZGjbiukp_-A-unsplash.jpg" alt="Business buildings">
                 <h3>BUSINESS</h3>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
             </div>
 
 
             <div class="col-sm-6">
-                <img class="img-responsive img-rounded" src="/wsc-practice-assets/blog/vitaliy-lyubezhanin-gfVofr15ICc-unsplash.jpg" alt="Hands">
+                <img class="img-responsive img-rounded imgSmall" src="/wsc-practice-assets/blog/vitaliy-lyubezhanin-gfVofr15ICc-unsplash.jpg" alt="Hands">
                 <h3>CULTURE</h3>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
             </div>
@@ -50,19 +56,19 @@
         <div class="container">
             <h2>LATEST NEWS</h2>
             <div>
-                <img src="/wsc-practice-assets/blog/younes-barri-zsHPnX2zstw-unsplash.jpg" alt="Design">
+                <img class="imgSmall" src="/wsc-practice-assets/blog/younes-barri-zsHPnX2zstw-unsplash.jpg" alt="Design">
                 <h3>DESIGN</h3>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
             </div>
 
 
             <div>
-                <img src="/wsc-practice-assets/blog/boxed-water-is-better-cXJCpV2Jv1Y-unsplash.jpg" alt="Health">
+                <img class="imgSmall" src="/wsc-practice-assets/blog/boxed-water-is-better-cXJCpV2Jv1Y-unsplash.jpg" alt="Health">
                 <h3>HEALTH</h3>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
             </div>
             <div>
-                <img src="wsc-practice-assets/blog/marco-oriolesi-wqLGlhjr6Og-unsplash.jpg" alt="Politics">
+                <img class="imgSmall" src="wsc-practice-assets/blog/marco-oriolesi-wqLGlhjr6Og-unsplash.jpg" alt="Politics">
                 <h3>POLITICS</h3>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
             </div>
@@ -73,22 +79,44 @@
         <div class="container">
             <h2>RECOMMENDED NEWS</h2>
             <div>
-                <img src="/wsc-practice-assets/blog/hal-gatewood-OgvqXGL7XO4-unsplash.jpg" alt="Science">
+                <img class="imgSmall" src="/wsc-practice-assets/blog/hal-gatewood-OgvqXGL7XO4-unsplash.jpg" alt="Science">
                 <h3>SCIENCE</h3>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
             </div>
             <div>
-                <img src="/wsc-practice-assets/blog/tom-barrett-M0AWNxnLaMw-unsplash.jpg" alt="Travel">
+                <img class="imgSmall" src="/wsc-practice-assets/blog/tom-barrett-M0AWNxnLaMw-unsplash.jpg" alt="Travel">
                 <h3>TRAVEL</h3>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
             </div>
 
-
             <div>
-                <img src="wsc-practice-assets/blog/nasa-Q1p7bh3SHj8-unsplash.jpg" alt="World">
+                <img class="imgSmall" src="wsc-practice-assets/blog/nasa-Q1p7bh3SHj8-unsplash.jpg" alt="World">
                 <h3>WORLD</h3>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
             </div>
+
+            <div>
+                <span>March 3, 2020 / by Marc / 8 Comments</span>
+                <h1>Sample blog post</h1>
+                <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                <a class="btn btn-ReadMore" href="#" alt="Read more">READ MORE</a>
+            </div>
+
+            <div>
+                <img class="imgBlog" src="wsc-practice-assets/blog/sean-o-KMn4VEeEPR8-unsplash.jpg" alt="Sea">
+                <span>Febrary 2, 2020 / by Jacob / 14 Comments</span>
+                <h1>Blog post with image</h1>
+                <P>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et.</P>
+                <a class="btn btn-ReadMore" href="#" alt="Read more">READ MORE</a>
+            </div>
+            
+            <div>
+                <span>January 1, 2020 / by Chris / 7 Comments</span>
+                <h1>Another blog post</h1>
+                <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                <a class="btn btn-ReadMore" href="#" alt="Read more">READ MORE</a>
+            </div>
+
             <a class="linkViewAll" href="#">VIEW ALL NEWS</a>
             <div>
                 <h2>CATEGORIES</h2>
