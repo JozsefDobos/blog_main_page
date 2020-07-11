@@ -2,8 +2,8 @@
 
 * {
     box-sizing: border-box;
-    margin-bottom: 1rem;
     padding: 0;
+    margin:0;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -13,7 +13,6 @@
     text-decoration: none;
     height: 40px;
     width: 160px;
-    padding-top: 13px;
     border: 1px solid;
     border-radius: 20px;
     text-align: center;
@@ -22,6 +21,12 @@
 
 a {
     text-decoration: none;
+}
+
+/* Main styles */ 
+
+main {
+    background-color: #F4F3F5;
 }
 
 /* Header styles */
@@ -39,10 +44,11 @@ a {
     position: relative;
     left: 110px;
     top: 12px;
+    padding-top: 12px;
     background-color: white;
     font-size: 12px;
     color: #6200EA;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 2.4px;
 }
 
@@ -64,7 +70,7 @@ header p {
     background-color: white;
     height: 80px;
     margin: 0;
-    padding: 0;
+    padding-top: 30px;
 }
 
 ul {
@@ -93,6 +99,8 @@ li {
     width: 120px;
     border-radius: 5px;
     display: inline-block;
+    margin: 20px;
+    padding: 0;
 }
 
 .imgBlog {
@@ -102,29 +110,84 @@ li {
 }
 
 
-/* Text styles */ 
+/* Texts and blogs styles */ 
 
 
 .firstBlogImg {
-    background: transparent url(wsc-practice-assets/blog/roberto-nickson-5ui0tfMC5ts-unsplash.jpg) 0% 0% no-repeat padding-box;;
+    background-image: url("/wsc-practice-assets/blog/roberto-nickson-5ui0tfMC5ts-unsplash.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 350px;
     width: 730px;
     color: white;
     border-radius: 15px;
+    padding: 55px;
+    line-height: 30px;
+}
+
+.firstBlogImg a {
+    color: white;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+
+h1 {
+    font-size: 40px;
+    padding: 20px 0;
 }
 
 h3 {
-    color: #6200EA;
+    color: #bbbbbb;
     font-size: 12px;
     font-weight: bold;
+}
+
+
+small {
+    letter-spacing: 2.4px;
+    font-size: 12px;
 }
 
 .postContainer {
     width: 350px;
     height: 160px;
-    background-color: violet;
+    background-color: white;
+    border-radius: 15px;
 }
 
+.poststyle {
+    width: 350px;
+    height: 160px;
+    background-color: white;
+}
+
+.simplePost {
+    height: 350px;
+    width: 730px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 55px;
+    line-height: 30px;
+}
+
+.simplePost a {
+    color: #6200EA;
+    margin-top: 20px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.postWithImg {
+    display: inline-block;
+    height: 770px;
+    width: 730px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 55px;
+    line-height: 30px;
+}
 
 /* Footer styles */
 
@@ -134,7 +197,7 @@ footer {
     text-transform: uppercase;
     height: 10vh;
     width: 100vw;
-    padding-top: 10px;
+    padding-top: 25px;
     margin: 0;
 }
 
